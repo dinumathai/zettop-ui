@@ -1,0 +1,23 @@
+
+.output-area, .input-area {
+    height: 65vh;
+	width: 95%;
+    overflow-y: auto;
+    text-align: left;
+    margin: 15px;
+    padding: 5px;
+    border: solid 1px #ccc;
+}
+
+.output-area{
+    background: #e8ebff;
+}
+
+.input-area {
+    background: #ffffed;	
+    margin-top: 7px;
+}
+
+.content-wrapper .media .btn {
+	margin-right: 20px;
+}

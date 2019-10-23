@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+    .separator {
+      display:none
+    }
+	.overlay-left {
+	  background: #fff;
+	}
+	.content-wrapper .media {
+	  width: 100%;
+	}
+	.media .icon img {
+	  width: 70%;
+	  margin-left: 15%;
+      margin-right: 15%;
+	}
+}

@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>Zettop - Deployment Simplified</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
+  <link rel="stylesheet" href="/css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="/css/media.css" type="text/css"/>
+  <link rel="stylesheet" href="/css/try.css" type="text/css"/>
+  
+  <script src="/script/jquery.min.js"></script>
+  <script src="/script/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/script/try.js"></script>
+</head>
+
+<body>
+    <div class="nav-wrapper">
+    <img class="fl img-responsive" src="/img/zettop-logo-small.jpg"/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fr" id="top-nav">
+     <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="/index.html">Home</a>
+         </li>
+       </ul>
+     <span class="separator"> | </span>
+     <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="/pages/try.html">Try</a>
+         </li>
+       </ul>
+     </div>
+    </nav>
+  </div>
+  
+  <div class="content-wrapper">
+    <div class="fl media block-6 d-block">
+	  <h3>Input Configuration</h3>
+      <textarea class="input-area" placeholder="Enter your configuration json" id="config-json"></textarea>
+	  <button class="fr btn btn-info" id="create-btn">Create Cluster</button>
+    </div>
+	
+	<div class="fl media block-6 d-block">
+      <h3>Output Log</h3>
+      <div class="output-area" id="output"></div>
+	  <button class="fr btn btn-info" id="cancel-btn">Cancel</button>
+    </div>
+  </div>
+</body>
+
+</html>
