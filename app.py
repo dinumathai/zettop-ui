@@ -62,7 +62,7 @@ def executesubprocess(command):
 def executecmd(configFileName):
     # fullFilePath = tempfile.gettempdir() + '/' + configFileName
 	# TODO: Move/rename fullFilePath to ignore the reties from UI - os.rename(fullFilePath, fullFilePath + ".json")
-    command = "ping api.stg-status.ccp.t-mobile.com"
+    command = "ping google.com"
     return flask.Response(executesubprocess(command), content_type='text/event-stream')
 
 
